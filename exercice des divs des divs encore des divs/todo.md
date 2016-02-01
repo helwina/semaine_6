@@ -1,0 +1,9 @@
+cree le titre avec un h1 un logo et 1p
+cree 3 grosd bloc de 4 de large
+chaque bloc contiend d autre bloc
+ajouter une classe pour les couleur a chaque bloc
+un footer a chaque bloc
+une image a chaque bloc
+ajouter une bordure a chaque bloc
+rendre le tout responcive
+
