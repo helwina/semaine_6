@@ -8,12 +8,6 @@
     }
 }
 
-@media screen and (max-width:992px) {
-    iframe {
-        width: 380px;
-    }
-}
-
 /*-----------------------------*\
             base
 \*-----------------------------*/
@@ -105,14 +99,6 @@ article {
              footer
 \*-----------------------------*/
 
-footer {
-    position: relative;
-}
-
-.footer-map, .footer-contact {
-    display: inline-block;
-}
-
 .footer-contact {
     margin-top: 30px;
     margin-left: 30px;
@@ -122,4 +108,9 @@ footer {
 
 .footer-container {
     background: url('../images/wov.png') center fixed;
+}
+
+iframe {
+    max-width: 100%;
+    min-width: 100%;
 }
