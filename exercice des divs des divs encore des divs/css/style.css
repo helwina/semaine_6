@@ -1,3 +1,58 @@
+/*------------------------------------*\
+               base
+\*------------------------------------*/
+
 div [class*="col"] {
     padding: 0;
+    margin: 0;
+    border: solid 1px black;
+}
+
+.container-fluid {
+    padding: 0 !important;
+}
+
+/*------------------------------------*\
+               header
+\*------------------------------------*/
+
+header {
+    height: 110px;
+}
+
+.header-logo, .header-title, .header-point {
+    display: inline-block;
+}
+
+.header-logo {
+    float: left;
+}
+
+.header-point {
+    float: right;
+    line-height: 100px;
+}
+
+/*------------------------------------*\
+    taille position couleurs des bloc
+\*------------------------------------*/
+
+.big {
+    height: 430px;
+}
+
+.little {
+    height: 215px;
+}
+
+.little, .big {
+    position: relative;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 45px;
 }
