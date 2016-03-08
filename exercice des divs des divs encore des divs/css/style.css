@@ -5,8 +5,8 @@
 div [class*="col"] {
     padding: 0;
     margin: 0;
-    
-    border: solid 1px black;
+
+
 }
 
 .container-fluid {
@@ -19,7 +19,9 @@ div [class*="col"] {
 
 header {
     height: 110px;
-    
+
+    border-bottom: solid 4px black;
+
     background-color: #37bbd2;
 }
 
@@ -29,9 +31,9 @@ header {
 
 .header-logo {
     float: left;
-    
+
     border-radius: 50%;
-    
+
     margin-top: 25px;
     margin-left: 25px;
 }
@@ -39,7 +41,7 @@ header {
 .header-title {
     margin-top: 31px;
     margin-left: 20px;
-    
+
     text-transform: capitalize;
 }
 
@@ -63,6 +65,8 @@ header {
 
 .little, .big {
     position: relative;
+
+    border: solid 4px black;
 }
 
 footer {
@@ -77,16 +81,18 @@ footer {
     position: absolute;
     top: 43%;
     left: 50%;
+
     transform: translateX(-50%) translateY(-43%);
 }
 
 h4 {
     margin-left: 15px;
     margin-top: 15px;
-    
+
     font-size: 13px;
     text-transform: capitalize;
 }
+
 /*------------------------------------*\
         couleurs des bloc
 \*------------------------------------*/
@@ -144,6 +150,7 @@ h4 {
     position: absolute;
     top: 5px;
     right: 10px;
+    
     font-size: 25px;
 }
 
@@ -152,5 +159,6 @@ h4 {
     position: absolute;
     top: 5px;
     right: 5px;
+
     font-size: 25px;
 }
